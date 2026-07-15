@@ -117,6 +117,22 @@
         font-size: 0.69rem;
       }
 
+      @media (max-height: 900px) {
+        main { padding: clamp(2rem, 5vh, 3.2rem); }
+        .eyebrow { margin-bottom: 1rem; }
+        h1 {
+          max-width: 18ch;
+          font-size: clamp(3rem, 8vh, 5rem);
+        }
+        .lede { margin-top: 1.2rem; }
+        .constraints { margin-top: 1.2rem; }
+        a {
+          margin-top: 1.35rem;
+          padding: 0.85rem 1.1rem;
+        }
+        .proof { margin-top: 1.4rem; }
+      }
+
       @media (prefers-color-scheme: light) {
         :root { background: #edf1f8; color: #11141a; }
         body {
