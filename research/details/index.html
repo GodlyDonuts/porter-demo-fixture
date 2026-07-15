@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <title>Porter Research Fixture — Static Details</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif;
+        background: #f4f5f7;
+        color: #141519;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at 80% 15%, rgb(255 255 255 / 90%), transparent 34rem),
+          linear-gradient(145deg, #edf0f5, #dde3ec);
+      }
+
+      main {
+        width: min(42rem, calc(100vw - 4rem));
+        padding: 4rem;
+        border: 1px solid rgb(255 255 255 / 64%);
+        border-radius: 2.25rem;
+        background: rgb(255 255 255 / 58%);
+        box-shadow: 0 2rem 6rem rgb(44 51 66 / 16%);
+        backdrop-filter: blur(2rem) saturate(120%);
+      }
+
+      .eyebrow {
+        margin: 0 0 1.4rem;
+        color: #717784;
+        font-size: 0.72rem;
+        font-weight: 650;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0 0 1.5rem;
+        font-size: clamp(2.5rem, 7vw, 4.7rem);
+        font-weight: 570;
+        letter-spacing: -0.065em;
+        line-height: 0.96;
+      }
+
+      p {
+        max-width: 36rem;
+        margin: 0 0 1rem;
+        color: #515762;
+        font-size: 1.08rem;
+        line-height: 1.58;
+      }
+
+      strong { color: #17191e; }
+
+      .proof {
+        margin-top: 2.3rem;
+        color: #858a95;
+        font-family: ui-monospace, "SFMono-Regular", monospace;
+        font-size: 0.72rem;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          background: #08090c;
+          color: #f5f6f8;
+        }
+
+        body {
+          background:
+            radial-gradient(circle at 80% 15%, rgb(47 52 63 / 72%), transparent 34rem),
+            linear-gradient(145deg, #11141a, #050609);
+        }
+
+        main {
+          border-color: rgb(255 255 255 / 12%);
+          background: rgb(19 22 28 / 68%);
+          box-shadow: 0 2rem 6rem rgb(0 0 0 / 42%);
+        }
+
+        .eyebrow { color: #888e99; }
+        p { color: #adb3bd; }
+        strong { color: #f5f6f8; }
+        .proof { color: #737985; }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Porter · Verified static detail</p>
+      <h1>Helpful, without hidden authority.</h1>
+      <p>
+        Porter separates intelligence from authority. <strong>GPT-5.6 Sol</strong>
+        proposes one typed action from bounded evidence. Local policy decides
+        whether that proposal is allowed, still current, and grounded in the
+        visible application state.
+      </p>
+      <p>
+        Consequential effects require an exact, expiring, single-use approval.
+        Porter re-observes before acting and verifies the real result afterward.
+        A changed window, stale frame, ambiguous target, or unexpected destination
+        stops the task instead of becoming an invisible click.
+      </p>
+      <p>
+        The product claim is deliberately narrow: the model can help interpret
+        what is visible, but it cannot grant itself cursor, keyboard, file,
+        message, or approval authority.
+      </p>
+      <p class="proof">fixture: porter-research-v1 · details · terminal page</p>
+    </main>
+  </body>
+</html>
